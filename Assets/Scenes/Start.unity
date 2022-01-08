@@ -11257,5 +11257,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GingerSlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 3071565168212567617, guid: 405072457ce60424ab610ce12a12b8c3, type: 3}
+      propertyPath: playerVelocity
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071565168212567617, guid: 405072457ce60424ab610ce12a12b8c3, type: 3}
+      propertyPath: moveSpeedModifier
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 405072457ce60424ab610ce12a12b8c3, type: 3}
