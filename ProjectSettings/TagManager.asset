@@ -44,12 +44,12 @@ TagManager:
   - name: Background
     uniqueID: 8221645
     locked: 0
-  - name: Water
-    uniqueID: 2650335373
-    locked: 0
   - name: Platforms
     uniqueID: 2014999229
     locked: 0
   - name: Player
     uniqueID: 2386335995
+    locked: 0
+  - name: Water
+    uniqueID: 2650335373
     locked: 0
