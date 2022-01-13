@@ -15,7 +15,7 @@ TagManager:
   - foreground
   - Climbing
   - Player
-  - 
+  - Bouncing
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Climbing
     uniqueID: 688706819
+    locked: 0
+  - name: Shroom
+    uniqueID: 1251424389
     locked: 0
   - name: Player
     uniqueID: 2386335995
