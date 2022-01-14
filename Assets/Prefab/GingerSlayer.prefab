@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8756984254943717331}
   - component: {fileID: 7970585166408205091}
   - component: {fileID: 3071565168212567617}
+  - component: {fileID: 5307943490751857723}
   m_Layer: 0
   m_Name: GingerSlayer
   m_TagString: Untagged
@@ -119,8 +120,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0043218136, y: 0}
-  m_Size: {x: 0.48204565, y: 0.8125}
+  m_Offset: {x: 0.0093815625, y: 0}
+  m_Size: {x: 0.5916725, y: 0.8125}
   m_Direction: 0
 --- !u!50 &8756984254943717331
 Rigidbody2D:
@@ -188,3 +189,29 @@ MonoBehaviour:
   jumpSpeed: 5
   runSpeed: 5
   climbSpeed: 0
+--- !u!61 &5307943490751857723
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083677080776441484}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.01027751, y: -0.3631389}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 0.8125}
+    newSize: {x: 0.75, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.37315774, y: 0.08622217}
+  m_EdgeRadius: 0
