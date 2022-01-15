@@ -16,7 +16,7 @@ TagManager:
   - Climbing
   - Player
   - Bouncing
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -55,6 +55,9 @@ TagManager:
     locked: 0
   - name: Shroom
     uniqueID: 1251424389
+    locked: 0
+  - name: Enemy
+    uniqueID: 1582146479
     locked: 0
   - name: Player
     uniqueID: 2386335995
