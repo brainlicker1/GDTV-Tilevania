@@ -15,6 +15,8 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] float runSpeed = 5f; 
     [SerializeField] float climbSpeed;
     [SerializeField] Vector2 deathKick = new Vector2(200f,50f);
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform gun;
     float gravityScaleStart;
     bool isAlive = true;
     
@@ -114,6 +116,12 @@ public class PlayerInput : MonoBehaviour
 
          transform.localScale =  new Vector2(Mathf.Sign(myRigidBody2D.velocity.x), 1f);
         }
+    }
+
+    void OnFire(InputValue value){
+
+        if(!isAlive){return;}
+        Instantiate(bullet, gun.position, transform.rotation);
     }
    
 }
