@@ -43,7 +43,7 @@ public class PlayerInput : MonoBehaviour
 
     void Die(){
 
-        if (myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        if (myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Enemy","Hazards")))
         {
             isAlive = false;
             myAnimator.SetTrigger("isDying");
