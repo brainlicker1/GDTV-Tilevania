@@ -50,6 +50,7 @@ public class PlayerInput : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("isDying");
             myRigidBody2D.velocity = deathKick;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
         
     }

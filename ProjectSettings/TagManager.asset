@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - 1up
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -69,4 +70,7 @@ TagManager:
     locked: 0
   - name: Water
     uniqueID: 2650335373
+    locked: 0
+  - name: Pickups
+    uniqueID: 1627115935
     locked: 0
